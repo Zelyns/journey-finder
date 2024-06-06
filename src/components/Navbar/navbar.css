@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #0724b5; 
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px; 
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.nav-menu li {
+  margin-right: 20px; 
+}
+
+.nav-menu li:last-child {
+  margin-right: 0; 
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #ffaa00; 
+}
+.Journey_Finder{
+  color: white;
+}

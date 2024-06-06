@@ -1,0 +1,62 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-paragraph {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    max-width: 600px;
+  }
+  
+  .call-to-action {
+    font-size: 2em;
+    margin-top: 30px;
+  }
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .profile-button, .destination-button {
+    background-color: #FFC55A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-button:hover, .destination-button:hover {
+    background-color: #0056b3;
+  }
